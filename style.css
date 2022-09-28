@@ -1,0 +1,29 @@
+.leRestaurant {
+    width: 350px;
+    height: 250px;
+    border: solid black 1px;
+    margin-left: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.descriptif {
+
+    border: 1px black solid;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.imgDescriptif {
+
+    width: 150px;
+    height: 300px;
+}
+
+
+
