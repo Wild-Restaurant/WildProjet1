@@ -15,16 +15,18 @@ nav {
     justify-content: flex-end
 }
 
-.firstbackground {
+
+body {
     background-image: url(./IMAGE/background.jpg);
     width: 100vh;
     height: 100vh;
+    background-repeat: no-repeat;
 }
 
 .nav-right {
     display: flex;
     position: absolute;
-    top: 30px;
+    top: 40px;
     left: 290px;
     gap: 10px;
 }
@@ -42,7 +44,7 @@ nav {
     border-radius: 10%;
 
   }
-  
+
   .toggle-btn {
     position: absolute;
     top: 25px;
@@ -77,6 +79,16 @@ nav {
   #side-bar.active {
     left: 0;
   }
+
+  h1 {
+position: absolute;
+top: 250px;
+left: 140px;
+color: #f0ebeb;    
+     }
+
+
+     
   /* .active span {
     position: absolute;
   }
