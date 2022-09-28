@@ -1,0 +1,20 @@
+.containerProduit {
+    width: 320px;
+    height: 820px;
+    display: flex;
+    position: relative;
+}
+
+img {
+    margin: 5px;
+    width: 320px;
+    height: 820px;
+}
+
+.textNosProduits {
+    border: 1px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
