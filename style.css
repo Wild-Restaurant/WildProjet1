@@ -1,0 +1,44 @@
+.contact-sec {
+    background-color: #E9DDC8;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: auto;
+
+}
+
+#btn-contact {
+    background-image: url(./assets/images/picto/picto_phone.png);
+    height:20%;
+    width: 20%;
+
+}
+
+#btn-home {
+height:20%;
+width: 20%;
+}
+#btn-localisation {
+    background-image: url(./assets/images/picto/picto_map.png);
+    height:20%;
+    width: 20%;
+}
+#btn-recrutement {
+    background-image: url(./assets/images/picto/picto_recrutement.png);
+    height:20%;
+    width: 20%;
+}
+
+#imgHome {
+ max-width: auto;
+ max-height: auto;
+}
