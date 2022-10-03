@@ -1,0 +1,30 @@
+7
+.foot-social {
+    Width: 376px;
+    height: 189px;
+    Top: 436px;
+    Left: 8px;
+    background: #D94730;
+
+}
+
+
+.footer-basic .social {
+    height: 29px;
+    width: 271px;
+    left: 66px;
+    top: 505px;
+    border-radius: 0px;
+}
+
+
+.social {
+    position: absolute;
+    width: 271px;
+    height: 29px;
+    left: 66px;
+    top: 505px;
+    
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
