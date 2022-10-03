@@ -13,17 +13,7 @@ img {
 .descriptif {
 
     border: 1px black solid;
-    height: 500px;
-    display: flex;
-    justify-content: flex-end;
-    
+    height: 25em;
+    width: 15em;
+   
 }
-
-.imgDescriptif {
-
-    width: 150px;
-    height: 300px;
-}
-
-
-
