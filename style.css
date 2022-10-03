@@ -18,6 +18,7 @@ body{
 img {
     max-width: 100%;
     height: 100%;
+    
 }
 
 .descriptif {
@@ -27,6 +28,7 @@ img {
     display: flex;
     justify-content: flex-end;
     margin-left: 10px;
+    color: #515050;
     
 }
 
@@ -40,6 +42,20 @@ img {
 h1 {
     font-family: Oswald;
     color: #D94730;
+    border: solid 1px black;  
+    width : 200px;
+    padding-left: 40px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding-right: 30px;
+    
+   
+
+   
+    
+    
     
 }
 
@@ -51,7 +67,7 @@ font-weight: 400;
 line-height: 25px;
 letter-spacing: 0.05em;
 text-align: left;
-
+margin-top: 5px;
+margin-right: 7px;
 }
-
 
