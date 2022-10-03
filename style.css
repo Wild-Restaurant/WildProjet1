@@ -1,20 +1,79 @@
-.containerProduit {
-    width: 320px;
-    height: 820px;
-    display: flex;
-    position: relative;
+/*<---------------NOS PRODUITS -------------->*/
+
+body {
+    margin: 2px;
+    font-family: oswald;
+
 }
 
-img {
-    margin: 5px;
-    width: 320px;
-    height: 820px;
+p {
+    font-size: 10px;
 }
 
-.textNosProduits {
-    border: 1px solid black;
+h2 {
+    font-size: 20px;
+}
+
+section.nosProduits {
+
+    /*background: url("./assets/images/food.jpg");*/
+    background: url("./assets/images/food-nosproduits.jpg");
+    background-size: cover;
+    /*background-size: cover;
+    height: 100vh;
+    width: 100vw;*/
+    max-width: auto;
+    height: 100vh;
+
+}
+
+.produitsContainer {
+    /*background-color: green;*/
+    width: 180px;
+    padding-top: 150px;
+    padding-left: 20px;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
+
+.produitsContainer h2 {
+    text-decoration: #FEBE48 underline;
+}
+
+.produitsButton {
+    margin-top: 40px;
+    background-color: #5F955F;
+    color: white;
+    border-radius: 20px;
+    font-size: 10px;
+    height: 30px;
+    width: 200px;
+}
+
+
+@media screen and (min-width:600px) {
+    p {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .produitsContainer {
+        width: auto;
+        padding-top: 150px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .produitsButton {
+        font-size: 15px;
+        border-radius: 30px;
+        height: 40px;
+        width: 300px;
+    }
+}
+
+
+/*<----------------FIN NOS PRODUITS --------------->*/
