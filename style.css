@@ -1,8 +1,18 @@
+
+body{
+
+    background-color:  #E9DDC8;
+    ;
+    ;
+}
+
+
 .leRestaurant {
     width: 350px;
     height: 250px;
     border: solid black 1px;
     margin-left: 10px;
+    margin-top: 80px;
 }
 
 img {
@@ -13,7 +23,35 @@ img {
 .descriptif {
 
     border: 1px black solid;
-    height: 25em;
-    width: 15em;
-   
+    height: 330px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 10px;
+    
 }
+
+.imgDescriptif {
+
+    width: 150px;
+    height: 300px;
+    margin-right: 12px;
+}
+
+h1 {
+    font-family: Oswald;
+    color: #D94730;
+    
+}
+
+
+.texteDescriptif {
+font-family: Oswald;
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0.05em;
+text-align: left;
+
+}
+
+
