@@ -30,7 +30,7 @@ img {
     justify-content: flex-end;
     margin-left: 10px;
     color: #515050;
-    padding-top: 30px;
+    padding-top: 50px;
     
 }
 
@@ -44,9 +44,10 @@ img {
 h2 {
     font-family: Oswald;
     color: #D94730;
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     align-items: center;
+   
     
 }
 
@@ -55,11 +56,14 @@ h2 {
     justify-content: center;
     border: solid black 1px;
     background-color: white;
-    width: fit-content;
-    height: 40px;
+    width: 230px;
+    height: 60px;
     position: absolute;
     z-index: 2;
     margin-top: 245px;
+    border-radius: 20px;
+    background: rgba(255, 253, 253, 0.64);
+    
 
   }
 
@@ -83,6 +87,8 @@ h2 {
 .global{
     position: relative;
     z-index: 1;
+    margin-top: 125px;
+}
 
 
 @media screen and (min-width: 600px) {
@@ -90,4 +96,3 @@ h2 {
 }
 
 
-}
