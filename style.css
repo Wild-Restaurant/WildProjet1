@@ -1,3 +1,26 @@
+/*<-------------------CHARGEMENT--------------->*/
+
+.chargement {
+    background-color: #5F955F;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.gifChargement {
+    height: 100px;
+}
+
+.chargement h3 {
+    font-size: 20px;
+    color: white;
+    padding-top: 200px;
+
+}
+
 /*<---------------NOS PRODUITS -------------->*/
 
 body {
@@ -7,12 +30,13 @@ body {
 }
 
 p {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 25px;
 }
+
 
 section.nosProduits {
 
@@ -29,8 +53,8 @@ section.nosProduits {
 
 .produitsContainer {
     /*background-color: green;*/
-    width: 180px;
-    padding-top: 150px;
+    width: 220px;
+    padding-top: 100px;
     padding-left: 20px;
     color: white;
 
@@ -41,7 +65,7 @@ section.nosProduits {
 }
 
 .produitsButton {
-    margin-top: 40px;
+    margin-top: 10px;
     background-color: #5F955F;
     color: white;
     border-radius: 20px;
@@ -52,6 +76,24 @@ section.nosProduits {
 
 
 @media screen and (min-width:600px) {
+
+    .chargement {
+        background-color: #5F955F;
+        height: 100vh;
+        width: auto;
+
+    }
+
+    /* .gifChargement {
+        height: 300px;
+    } */
+
+    .chargement h3 {
+        /* margin-top: 50px; */
+        font-size: 30px;
+    }
+
+
     p {
         font-size: 20px;
     }
@@ -74,6 +116,7 @@ section.nosProduits {
         width: 300px;
     }
 }
+
 
 
 /*<----------------FIN NOS PRODUITS --------------->*/
