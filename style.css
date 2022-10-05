@@ -4,31 +4,42 @@ body{
 
     background-color:  #E9DDC8;
     font-family: Oswald;
-
 }
 
-  .h2_title_restaurant {
+  
+
+.h2_title_restaurant {
     color: #D94730;
     font-size: 25px;
     display: flex;
     align-items: center;
-   
-    
 }
+
+
+
+
 
 .global_restaurant {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
     align-items: center;
     padding-top: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
+
+
+
+
 
 .pres_restaurant {
     width: 350px;
     height: 250px;
     border: solid black 1px;
-    
+    margin-bottom: 50px;
 }
+
 
 
 .pres_restaurant img {
@@ -59,8 +70,9 @@ body{
     color: #515050;
     height: 300px;
     width: 150px;
-    
 }
+
+
 
 
 .desc_restaurant img {
@@ -80,51 +92,55 @@ body{
     text-align: left;
     width: 50%;
     padding-right: 25px;
-    
-
-    
-   
 }
+
+
+
+
+
 
 .text_restaurant p {
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
+
+
+
+
+
+
+
 @media screen and (min-width:600px) {
+
+
+     
+
+
  
     .pres_restaurant {
 
         border: solid black 1px;
         width: 60%;
         height: 50%;
-        
-    }
-    
-    
-    .pres_restaurant {
-
         display: flex;
         align-self: flex-start;
     }
     
-
-    .desc_restaurant {
-
-        display: flex;
-    }
-
-    .group_desc_texte_restaurant {
-
-        display: flex;
-
-
-}
+    
+   
 
     .global_restaurant {
-    
+
        padding: 0 50px 50px 50px;
-}
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+       align-items: center;
+    }
+
+
+
 
 
     .text_restaurant p {
@@ -132,12 +148,36 @@ body{
       font-size: 24px;
       line-height: 35px;
       margin: 0 auto;
-    
     }
+
+
+
+
+    .desc_restaurant {
+
+        border: 1px black solid;
+        display: flex;
+        justify-content: flex-end;
+        color: #515050;
+        height: 300px;
+        width: 320px;
+        padding-left: 100px;
+        padding-bottom: 175px;
+    }
+    
+    .desc_restaurant img {
+    
+        height: 655px;
+    }
+    
 
     .text_restaurant {
-
-        
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.00em;
+        text-align: left;
+        width: 615px;
+        padding-right: 25px;
     }
-
 }
