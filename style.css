@@ -1,44 +1,126 @@
 .contact-sec {
     background-color: #E9DDC8;
-    height: 60vh;
     display: flex;
+    height: 80vh;
     justify-content: space-around;
 }
 
 .container-btn {
     display: flex;
-    justify-content: center;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    height: auto;
-    width: auto;
-
+    height: 100%;
+    width:  100%;
+    
 }
 
-#btn-contact {
-    background-image: url(./assets/images/picto/picto_phone.png);
-    height:20%;
-    width: 20%;
 
-}
 
-#btn-home {
-height:20%;
-width: 20%;
-}
-#btn-localisation {
-    background-image: url(./assets/images/picto/picto_map.png);
-    height:20%;
-    width: 20%;
-}
-#btn-recrutement {
-    background-image: url(./assets/images/picto/picto_recrutement.png);
-    height:20%;
-    width: 20%;
+/* home section */
+
+
+
+.home{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    width: 25%;
 }
 
-#imgHome {
- max-width: auto;
- max-height: auto;
+.home button{
+    height:50%;
+    width: 50%;
+    border-radius: 50%;
+    background-color: #D94730;
+}
+
+
+.home button img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* contact section */
+
+
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    width:  25%;
+}
+
+
+.contact button{
+    height:50%;
+    width: 50%;
+    border-radius: 50%;
+    background-color: #D94730;
+}
+
+.contact button img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* localisation section */
+
+
+
+.localisation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    width: 25%;
+}
+
+
+.localisation button{
+    height:50%;
+    width: 50%;
+    border-radius: 50%;
+    background-color: #D94730;
+}
+
+
+.localisation button img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* recrutement section */
+
+
+
+.recrutement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    width: 25%;
+}
+
+
+.recrutement button{
+    height:50%;
+    width: 50%;
+    border-radius: 50%;
+    background-color: #D94730;
+}
+
+.recrutement button img {
+    height: 100%;
+    width: 100%;
 }
