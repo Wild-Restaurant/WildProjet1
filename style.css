@@ -64,6 +64,8 @@ section.nosProduits {
     width: 200px;
 }
 /*<-------------------CONTACT--------------->*/
+
+
 .contact-sec {
     background-color: #E9DDC8;
     height: 80vh;
@@ -116,40 +118,46 @@ section.nosProduits {
 /*<-------------------FOOTER--------------->*/
 
 .footer-basic {
-    border:1px solid black;
+
     background-color:#D94730;
-    height: 30vh;
+    height: 20vh;
+    
 }
 
 .liste-médias {
-    border:1px solid black;
-    height: 70px;
+    
+    height: 12vh;
     display:flex ;
-    justify-content:center;
+    justify-content: space-evenly;
     align-items: center;
-    margin-left: 0px;
-    margin-right: 0px;
+    max-width: 75%;
+    margin-left: 12%;
+    
 }
 
-img{
+img {
+    
     width: auto;
-    height: 5vh;
+    height: 4vh;
+    justify-content: space-around;
+
 }
 
 .boutons-reserver-commander {
-    border:1px solid black;
-    height: 40px;
-}
-
-.Mentions-legales {
-    text-align:center;
+    
+    height: 10px;
 }
 
 .Mentions {
+
+    background-color:#D94730;
+    height: 5vh;
+    text-align:center;
     font-size:10px;
     color:white;
     text-decoration: none;
 }
+
 
 
 /*<-------------------MEDIA SCREEN--------------->*/
@@ -196,16 +204,30 @@ img{
     }
 
     /*<----------FOOTER ----------->*/
+    
  
     .liste-médias {
         margin-left: 10%;
         margin-right: 10%;
+        max-width: 75%;
+        margin-left: 12%;
+    }
+
+    img {
+    
+        width: auto;
+        height: 6vh;
+        justify-content: space-around;
+    
     }
     
     .Mentions {
         font-size:15px;
+
         
     }
+
+    
 
 }
 
