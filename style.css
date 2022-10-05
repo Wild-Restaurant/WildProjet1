@@ -5,42 +5,7 @@ body{
 
 }
 
-
-.pres_restaurant {
-    width: 350px;
-    height: 250px;
-    border: solid black 1px;
-    margin-left: 10px;
-    margin-top: 20px;
-}
-
-
-.img_landscape_restaurant {
-    max-width: 100%;
-    height: 100%;
-    
-}
-
-.desc_restaurant {
-
-    border: 1px black solid;
-    height: 330px;
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 10px;
-    color: #515050;
-    padding-top: 50px;
-    
-}
-
-.img_portrait_restaurant {
-
-    width: 150px;
-    height: 300px;
-    margin-right: 12px;
-}
-
-.h2_title_restaurant {
+  .h2_title_restaurant {
     color: #D94730;
     font-size: 25px;
     display: flex;
@@ -49,21 +14,58 @@ body{
     
 }
 
-.title_restaurant {
+.global_restaurant {
     display: flex;
-    justify-content: center;
-    border: solid black 1px;
-    background-color: white;
-    width: 230px;
-    height: 60px;
-    position: absolute;
-    z-index: 2;
-    margin-top: 245px;
-    border-radius: 20px;
-    background: rgba(255, 253, 253, 0.64);
-    
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
 
-  }
+.pres_restaurant {
+    width: 350px;
+    height: 250px;
+    border: solid black 1px;
+    
+}
+
+
+.pres_restaurant img {
+
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.group_desc_texte_restaurant {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 45px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+
+.desc_restaurant {
+
+    border: 1px black solid;
+    display: flex;
+    justify-content: flex-end;
+    color: #515050;
+    height: 300px;
+    width: 150px;
+    
+}
+
+
+.desc_restaurant img {
+    
+    min-width: 100%;
+}
+
 
 
 
@@ -71,23 +73,18 @@ body{
 .text_restaurant {
     font-size: 18px;
     font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.05em;
+    line-height: 24px;
+    letter-spacing: 0.00em;
     text-align: left;
-    margin-top: 5px;
-    margin-right: 7px;
-    display: flex;
-    align-items: center;
-    margin-left: 7px;
-}
-
-.global_restaurant {
-    position: relative;
-    z-index: 1;
-    margin-top: 125px;
-}
-
-
-@media screen and (min-width: 600px) {
+    width: 50%;
+    padding-right: 25px;
     
+
+    
+   
+}
+
+.text_restaurant p {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
