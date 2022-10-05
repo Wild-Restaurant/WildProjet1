@@ -1,3 +1,5 @@
+
+
 body{
 
     background-color:  #E9DDC8;
@@ -87,4 +89,55 @@ body{
 .text_restaurant p {
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+@media screen and (min-width:600px) {
+ 
+    .pres_restaurant {
+
+        border: solid black 1px;
+        width: 60%;
+        height: 50%;
+        
+    }
+    
+    
+    .pres_restaurant {
+
+        display: flex;
+        align-self: flex-start;
+    }
+    
+
+    .desc_restaurant {
+
+        display: flex;
+    }
+
+    .group_desc_texte_restaurant {
+
+        display: flex;
+
+
+}
+
+    .global_restaurant {
+    
+       padding: 0 50px 50px 50px;
+}
+
+
+    .text_restaurant p {
+
+      font-size: 24px;
+      line-height: 35px;
+      margin: 0 auto;
+    
+    }
+
+    .text_restaurant {
+
+        
+    }
+
 }
