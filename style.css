@@ -11,13 +11,19 @@ body{
     font-size: 25px;
     display: flex;
     align-items: center;
+    z-index: 2;
+    position: absolute;
+    margin-top: 75%;
+    background-color: rgb(247 247 248 / 63%);
+    height: 50px;
+    border-radius: 15px;
 }
 
 
 
 
 
-.global_restaurant {
+/* .global_restaurant {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
@@ -25,71 +31,95 @@ body{
     padding-top: 50px;
     margin-right: 10px;
     margin-left: 10px;
-}
+} */
 
 
 
 
 
-.pres_restaurant {
+/* .pres_restaurant {
     width: 350px;
     height: 250px;
-    /*border: solid black 1px;*/
     margin-bottom: 50px;
+} */
+
+
+
+
+#img_land {
+width: 100%;
+border-radius: 5px;
+margin-bottom: 15%;
+margin-top: 15%;
 }
 
 
 
-.pres_restaurant img {
+
+#img_port {
+
+    width: 50%;
+    height: 45vh;
+    border-radius: 5px;
+}
+
+
+.group_restaurant {
+
+   display: flex;
+   flex-direction: row;
+}
+
+/* .pres_restaurant img {
 
     width: 100%;
     height: 100%;
-}
+} */
 
 
 
 
-.group_desc_texte_restaurant {
+/* .group_desc_texte_restaurant {
     display: flex;
     flex-direction: row-reverse;
     margin-top: 45px;
     margin-right: 10px;
     margin-left: 10px;
-}
+} */
 
 
 
 
-.desc_restaurant {
+/* .desc_restaurant {
 
-    /*border: 1px black solid;*/
     display: flex;
     justify-content: flex-end;
     color: #515050;
     height: 300px;
     width: 150px;
-}
+} */
 
 
 
 
-.desc_restaurant img {
+/* .desc_restaurant img {
     
     min-width: 100%;
-}
+} */
 
 
 
 
 
 .text_restaurant {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.00em;
+    line-height: 20px;
+    letter-spacing: 0.0em;
     text-align: left;
     width: 50%;
     padding-right: 25px;
+    padding-bottom: -14px;
 }
 
 
@@ -118,7 +148,7 @@ body{
  
     .pres_restaurant {
 
-        /*border: solid black 1px;*/
+       
         width: 60%;
         height: 50%;
         display: flex;
@@ -153,19 +183,20 @@ body{
 
     .desc_restaurant {
 
-        /*border: 1px black solid;*/
+       
         display: flex;
         justify-content: flex-end;
         color: #515050;
         height: 300px;
-        width: 320px;
+        width: 400px;
         padding-left: 100px;
-        padding-bottom: 175px;
+        padding-bottom: 350px;
+        
     }
     
     .desc_restaurant img {
     
-        height: 655px;
+        height: 820px;
     }
     
 
@@ -175,10 +206,7 @@ body{
         line-height: 24px;
         letter-spacing: 0.00em;
         text-align: left;
-        width: 615px;
+        width: 55vw;
         padding-right: 25px;
     }
 }
-
-
-
