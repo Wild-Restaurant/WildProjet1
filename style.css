@@ -6,6 +6,10 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
   /*<-------------------CHARGEMENT--------------->*/
 
   .chargement {
@@ -43,15 +47,7 @@ header {
   overflow: hidden;
 }
 
-.navbar {
-  position: fixed;
-  top: 0;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  box-sizing: border-box;
-  flex-direction: row-reverse;
-}
+
 
 .logo {
   position: fixed;
@@ -65,10 +61,15 @@ header {
 
 .navbar a {
   color: rgb(0, 0, 0);
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   font-weight: 600;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
+
+
+
+
 
 .navlinks {
   display: flex;
@@ -78,19 +79,20 @@ header {
   font-size: 1.2rem;
   padding: 13px;
   margin-left: 8px;
+
 }
 
 .navlinks {
   top: 0;
-  border-radius: 10px;
   left: 0;
+  width: 55%;
   position: fixed;
-  width: px;
   height: 35vh;
   display: flex;
-  justify-content: left;
-  margin-left: -60%;
+  margin-left: -70%;
   transition: 0.8s ease-in-out;
+  backdrop-filter: blur(3px);
+
 }
 
 .navlinks ul {
@@ -99,8 +101,7 @@ header {
   align-items: left;
   justify-content: flex-end;
   background-color: #eee6e6;
-  border-radius: 10%;
-  width: 100%;
+  border-radius: 0% 10% 10% 10% ;
   opacity: 0.5;
 }
 
@@ -111,10 +112,12 @@ header {
   width: 50px;
   left: 50px;
   border-radius: 20%;
+
 }
 
 .mobile-menu {
   margin-left: 0;
+
 }
 
 .navlinks.mobile-menu {
@@ -296,9 +299,7 @@ img {
 
   /*<----------NAVBAR ----------->*/
 
-  .navbar {
-    padding: 0;
-  }
+
   .navbar .menubg {
     display: none;
   }
@@ -313,42 +314,40 @@ img {
     display: fixed;
     flex-direction: row;
     padding: 30px;
+    padding-left: 0;
     align-items: center;
     border-radius: 0;
     opacity: 50;
     background-color: #fdfbfb00;
   }
 
-  /* avlinks ul 
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: flex-end;
-    border-radius: 10%;
-    width: 100%;
-    opacity: 0.5; */
-  
+
 
   .navlinks {
     display: flex;
     position: fixed;
-    margin-left: 1vh;
     align-items: flex-start;
+    backdrop-filter: blur(0px);
+    margin: 0;
+    width: 70%;
+    height: auto;
 
   }
 
   .navbar .navlinks ul li {
-    font-size: 0.5rem;
     padding: 10px;
+    align-items: center;
+    text-align: center;
+
 
   }
 
   .navlinks ul li a {
-    padding: 10px;
-    font-size: 1.3rem;
-    color: #5F955F;
-
-  }
+    letter-spacing: 2PX;
+    padding: 0;
+    color: rgb(239, 255, 16);
+    font-size: 1rem;
+}
 
 
   .bouttonnav {
