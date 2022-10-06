@@ -140,7 +140,7 @@ header {
 .bouttonnav {
     display: flex;
     position: fixed;
-    bottom: 5vh;
+    bottom: 6vh;
     width: 70%;
     margin-left: 10%;
     margin-right: 10%;
@@ -151,15 +151,70 @@ header {
     color: white;
     border-radius: 20px;
     border-style: none;
-    font-size: 15px;
+    font-size: 12px;
     height: 40px;
-    width: 50vw;
+    width: 70vw;
+    margin-left: 12%;
 }
 
 .navbar .menubg {
     display: block;
 }
+/*<---------------RESTAURANT -------------->*/
+body{
 
+    background-color:  #E9DDC8;
+    font-family: Oswald;
+}
+.h2_title_restaurant {
+    color: #D94730;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    position: absolute;
+    margin-top: 75%;
+    background-color: rgb(247 247 248 / 63%);
+    height: 50px;
+    border-radius: 15px;
+}
+
+#img_land {
+width: 100%;
+border-radius: 5px;
+margin-bottom: 15%;
+margin-top: 15%;
+box-shadow: -7px 9px 17px 0px rgb(103 97 92 / 90%);
+}
+
+#img_port {
+
+    width: 50%;
+    height: 45vh;
+    border-radius: 5px;
+    box-shadow: -7px 9px 17px 0px rgb(103 97 92 / 90%);
+}
+.group_restaurant {
+
+   display: flex;
+   flex-direction: row;
+}
+
+.text_restaurant {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.0em;
+    text-align: left;
+    width: 50%;
+    padding-right: 25px;
+    padding-bottom: -14px;
+}
+
+.text_restaurant p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
 /*<---------------NOS PRODUITS -------------->*/
 
@@ -201,7 +256,7 @@ section.nosProduits {
     background-color: #5F955F;
     border: 0;
     color: white;
-    border-radius: 20px;
+    border-radius: 30px;
     font-size: 10px;
     height: 30px;
     width: 200px;
@@ -281,15 +336,11 @@ img {
 
 }
 
-.boutons-reserver-commander {
-    
-    height: 10px;
-}
 
 .Mentions {
 
     background-color:#D94730;
-    height: 5vh;
+    height: 3vh;
     text-align:center;
     font-size:10px;
     color:white;
@@ -371,12 +422,82 @@ img {
     .bouttonnav {
         justify-content: center;
         display: flex;
+
     }
 
     .bouttonnav button {
         margin-top: 10px;
         background-color: #5f955f;
     }
+     
+
+
+/*<------------RESTAURANT---------------->*/
+#img_port {
+    border-radius: 5px;
+    box-shadow: -7px 9px 17px 0px rgb(103 97 92 / 90%);
+    width: 340px;
+    height: 460px;
+}
+
+
+#img_land {
+    width: 80%;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    margin-top: 15%;
+    box-shadow: -7px 9px 17px 0px rgb(103 97 92 / 90%);
+    margin-left: 10%;
+    height: 85vh;
+    }
+
+
+
+    .group_restaurant {
+
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 5%;
+     }
+
+
+     .text_restaurant p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 7vw;
+        padding-top: 16%;
+        
+    }
+    
+
+    .h2_title_restaurant {
+        color: #D94730;
+        font-size: 45px;
+        display: flex;
+        align-items: center;
+        z-index: 2;
+        position: absolute;
+        margin-top: 51%;
+        background-color: rgb(247 247 248 / 63%);
+        height: 125px;
+        border-radius: 15px;
+        width: 26%;
+        margin-left: 5%;
+    }
+
+ 
+
+.text_restaurant {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.00em;
+    text-align: left;
+    width: 55vw;
+    padding-right: 25px;
+}
+
+
 
     /*<----------NOS PRODUITS ----------->*/
 
@@ -440,7 +561,7 @@ img {
     }
 
     .Mentions {
-        font-size:15px;
+        font-size:13px;
 
         
     }
@@ -448,5 +569,7 @@ img {
     
 
 }
+
+
 
 
