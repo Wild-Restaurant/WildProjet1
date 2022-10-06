@@ -141,12 +141,16 @@ header {
     display: flex;
     position: fixed;
     bottom: 5vh;
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .bouttonnav button {
     background-color: #5f955f;
     color: white;
     border-radius: 20px;
+    border-style: none;
     font-size: 15px;
     height: 40px;
     width: 50vw;
