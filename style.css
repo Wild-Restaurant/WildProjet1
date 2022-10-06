@@ -7,6 +7,23 @@
     box-sizing: border-box;
 }
 
+body {
+
+    background-color: #E9DDC8;
+    font-family: Oswald;
+    margin: 2px;
+}
+
+p {
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -156,13 +173,6 @@ header {
 }
 
 /*<---------------RESTAURANT -------------->*/
-
-body {
-
-    background-color: #E9DDC8;
-    font-family: Oswald;
-}
-
 .section_restaurant {
     padding-bottom: 10px;
     padding-right: 5px;
@@ -225,20 +235,6 @@ body {
 }
 
 /*<---------------NOS PRODUITS -------------->*/
-
-body {
-    margin: 2px;
-    font-family: oswald;
-}
-
-p {
-    font-size: 15px;
-}
-
-h2 {
-    font-size: 25px;
-}
-
 section.nosProduits {
     background: url("./assets/images/food-nosproduits.jpg");
     background-size: cover;
