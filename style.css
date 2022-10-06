@@ -144,10 +144,67 @@ box-shadow: -7px 9px 17px 0px rgb(103 97 92 / 90%);
 @media screen and (min-width:600px) {
 
 
-     
+
+    #img_port {
+        border-radius: 5px;
+        box-shadow: -7px 9px 17px 0px rgb(103 97 92 / 90%);
+        width: 340px;
+        height: 460px;
+    }
 
 
- 
+    #img_land {
+        width: 80%;
+        border-radius: 5px;
+        margin-bottom: 5%;
+        margin-top: 15%;
+        box-shadow: -7px 9px 17px 0px rgb(103 97 92 / 90%);
+        margin-left: 10%;
+        height: 85vh;
+        }
+
+
+
+        .group_restaurant {
+
+            display: flex;
+            justify-content: space-evenly;
+            margin-right: 5%;
+         }
+
+
+         .text_restaurant p {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: 7vw;
+            padding-top: 16%;
+            
+        }
+        
+
+        .h2_title_restaurant {
+            color: #D94730;
+            font-size: 45px;
+            display: flex;
+            align-items: center;
+            z-index: 2;
+            position: absolute;
+            margin-top: 51%;
+            background-color: rgb(247 247 248 / 63%);
+            height: 125px;
+            border-radius: 15px;
+            width: 26%;
+            margin-left: 5%;
+        }
+
+        /* .group_restaurant {
+            display: flex;
+            flex-direction: row;
+            margin-left: 5%; */
+        
+
+
+/*  
     .pres_restaurant {
 
        
@@ -156,34 +213,34 @@ box-shadow: -7px 9px 17px 0px rgb(103 97 92 / 90%);
         display: flex;
         align-self: flex-start;
     }
-    
+     */
     
    
 
-    .global_restaurant {
+    /* .global_restaurant {
 
        padding: 0 50px 50px 50px;
        display: flex;
        flex-wrap: wrap;
        flex-direction: row;
        align-items: center;
-    }
+    } */
 
 
 
 
 
-    .text_restaurant p {
+    /* .text_restaurant p { */
 
-      font-size: 24px;
+      /* /* font-size: 24px;
       line-height: 35px;
-      margin: 0 auto;
-    }
+      margin: 0 auto; */
+     
 
 
 
 
-    .desc_restaurant {
+    /* .desc_restaurant {
 
        
         display: flex;
@@ -195,21 +252,24 @@ box-shadow: -7px 9px 17px 0px rgb(103 97 92 / 90%);
         padding-bottom: 350px;
         
     }
-    
-    .desc_restaurant img {
+     */
+    /* .desc_restaurant img {
     
         height: 820px;
     }
-    
+     */
 
     .text_restaurant {
-        font-size: 18px;
+        font-size: 30px;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 45px;
         letter-spacing: 0.00em;
         text-align: left;
         width: 55vw;
         padding-right: 25px;
     }
     
+
+
+
 }
