@@ -13,8 +13,6 @@ html {
 
 /*<-------------------CHARGEMENT--------------->*/
 
-/*<-------------------CHARGEMENT--------------->*/
-
 .chargement {
     position: absolute;
     z-index: 10;
@@ -26,8 +24,6 @@ html {
     align-items: center;
     padding-top: 100px;
     position: absolute;
-    /* animation: chargement 3s; */
-
 }
 
 .gifChargement {
@@ -46,7 +42,6 @@ html {
 
 /*<-------------------NAVBAR--------------->*/
 
-
 header {
     height: 100vh;
     width: 100vw;
@@ -54,7 +49,6 @@ header {
     background-size: cover;
     overflow: hidden;
 }
-
 
 .logo {
     position: fixed;
@@ -74,10 +68,6 @@ header {
     letter-spacing: 1px;
 }
 
-
-
-
-
 .navlinks {
     display: flex;
 }
@@ -86,7 +76,6 @@ header {
     font-size: 1.2rem;
     padding: 13px;
     margin-left: 8px;
-
 }
 
 .navlinks {
@@ -99,7 +88,6 @@ header {
     margin-left: -70%;
     transition: 0.8s ease-in-out;
     backdrop-filter: blur(2px);
-
 }
 
 .navlinks ul {
@@ -119,12 +107,10 @@ header {
     width: 50px;
     left: 50px;
     border-radius: 20%;
-
 }
 
 .mobile-menu {
     margin-left: 0;
-
 }
 
 .navlinks.mobile-menu {
@@ -140,7 +126,7 @@ header {
 }
 
 .wildlogo img {
-    margin-top: 300px;
+    margin-top: 150px;
     width: 250px;
     height: 300px;
 }
@@ -170,6 +156,7 @@ header {
 }
 
 /*<---------------RESTAURANT -------------->*/
+
 body {
 
     background-color: #E9DDC8;
@@ -305,8 +292,6 @@ section.nosProduits {
     margin-bottom: 10%;
 }
 
-
-
 .contact-container-btn div img {
     height: 40%;
     width: 23%;
@@ -324,34 +309,26 @@ section.nosProduits {
 /*<-------------------FOOTER--------------->*/
 
 .footer-basic {
-
     background-color: #D94730;
     height: 20vh;
-
 }
 
 .liste-médias {
-
     height: 12vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     max-width: 75%;
     margin-left: 12%;
-
 }
 
 img {
-
     width: auto;
     height: 4vh;
     justify-content: space-around;
-
 }
 
-
 .Mentions {
-
     background-color: #D94730;
     height: 3vh;
     text-align: center;
@@ -362,8 +339,6 @@ img {
 
 
 /*<-------------------MEDIA SCREEN--------------->*/
-
-
 
 
 @media screen and (min-width:600px) {
@@ -381,21 +356,13 @@ img {
         width: auto;
     }
 
-    .chargement h3 {
-        font-size: 30px;
-    }
-
-    /*<----------CHARGEMENT ----------->*/
-
     .gifChargement {
         height: 400px;
     }
 
     .chargement h3 {
-
         font-size: 40px;
     }
-
 
     /*<----------NAVBAR ----------->*/
 
@@ -442,8 +409,6 @@ img {
     .bouttonnav {
         justify-content: center;
         display: flex;
-
-
     }
 
     .bouttonnav button {
@@ -452,16 +417,14 @@ img {
         font-size: 20px;
     }
 
-
-
     /*<------------RESTAURANT---------------->*/
+
     #img_port {
         border-radius: 5px;
         box-shadow: -7px 9px 17px 0px rgb(103 97 92 / 90%);
         width: 340px;
         height: 460px;
     }
-
 
     #img_land {
         width: 80%;
@@ -473,8 +436,6 @@ img {
         height: 85vh;
     }
 
-
-
     .group_restaurant {
 
         display: flex;
@@ -482,15 +443,12 @@ img {
         margin-right: 5%;
     }
 
-
     .text_restaurant p {
         margin-top: 0px;
         margin-bottom: 0px;
         margin-left: 7vw;
         padding-top: 16%;
-
     }
-
 
     .h2_title_restaurant {
         color: #D94730;
@@ -507,8 +465,6 @@ img {
         margin-left: 5%;
     }
 
-
-
     .text_restaurant {
         font-size: 30px;
         font-weight: 400;
@@ -518,8 +474,6 @@ img {
         width: 55vw;
         padding-right: 25px;
     }
-
-
 
     /*<----------NOS PRODUITS ----------->*/
 
@@ -536,6 +490,7 @@ img {
         padding-top: 150px;
         margin-right: 20%;
         margin-left: 10%;
+        margin-bottom: 50px;
     }
 
     .produitsButton {
@@ -560,7 +515,6 @@ img {
         flex-direction: row;
         height: 100%;
         width: 80vw;
-        ;
     }
 
     .contact-container-btn div {
@@ -571,6 +525,7 @@ img {
     }
 
     /*<----------FOOTER ----------->*/
+
     .liste-médias {
         margin-left: 10%;
         margin-right: 10%;
@@ -579,19 +534,13 @@ img {
     }
 
     img {
-
         width: auto;
         height: 6vh;
         justify-content: space-around;
-
     }
 
     .Mentions {
         font-size: 13px;
-
-
     }
-
-
 
 }
