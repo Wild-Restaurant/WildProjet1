@@ -25,3 +25,17 @@ menuHamburger.addEventListener('click', () => {
 setTimeout(function () {
     $('.chargement').fadeOut();
 }, 4000);
+
+//MAKE CLICKABLE div contact-btn-home
+const contactBtnHome = document.querySelector("#contact-btn-home");
+const contactBtncontact = document.querySelector("#contact-btn-contact");
+const contactBtnlocalisation = document.querySelector("#contact-btn-localisation");
+const contactBtnrecrutement = document.querySelector("#contact-btn-recrutement");
+
+contactBtnrecrutement.addEventListener("click", () => {
+  window.location.href = "mailto:wildatrattoria@gmail.com";
+});
+
+contactBtnlocalisation.addEventListener("click", () => {
+    window.location.href = "https://goo.gl/maps/wNLeikvbGunC4SnM6";
+    });
