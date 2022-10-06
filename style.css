@@ -50,7 +50,6 @@ html {
 .chargement h3 {
     font-size: 25px;
     color: white;
-    /* pading-top: 200px; */
 }
 
 .CHargementinvisible {
@@ -161,7 +160,7 @@ header {
 }
 
 .wildlogo img {
-    margin-top: 300px;
+    margin-top: 150px;
     width: 250px;
     height: 300px;
 }
@@ -180,7 +179,7 @@ header {
     color: white;
     border-radius: 20px;
     border-style: none;
-    font-size: 12px;
+    font-size: 14px;
     height: 40px;
     width: 70vw;
     margin-left: 12%;
@@ -193,6 +192,7 @@ header {
 
 
 /*<---------------RESTAURANT -------------->*/
+
 .section_restaurant {
     padding-bottom: 10px;
     padding-right: 5px;
@@ -255,6 +255,7 @@ header {
 }
 
 /*<---------------NOS PRODUITS -------------->*/
+
 section.nosProduits {
     background: url("./assets/images/food-nosproduits.jpg");
     background-size: cover;
@@ -269,6 +270,11 @@ section.nosProduits {
     margin-right: 20%;
     margin-left: 10%;
     color: white;
+}
+
+.produitsContainer p {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 
 .produitsContainer h2 {
@@ -432,6 +438,12 @@ img {
         padding-right: 10px;
     }
 
+    .wildlogo img {
+        margin-top: 200px;
+        width: 350px;
+        height: 400px;
+    }
+
     .navbar .navlinks ul li:hover {
         cursor: pointer;
         transition: 1s;
@@ -462,7 +474,10 @@ img {
         transition: 1s ease-in-out;
         background-color: #d94730;
         border-radius: 25px;
+    }
 
+    .bouttonnav button {
+        font-size: 20px;
     }
 
     /*<------------RESTAURANT---------------->*/
@@ -485,7 +500,6 @@ img {
     }
 
     .group_restaurant {
-
         display: flex;
         justify-content: space-evenly;
         margin-right: 5%;
@@ -531,6 +545,10 @@ img {
 
     h2 {
         font-size: 40px;
+    }
+
+    .nosProduits {
+        margin-top: 5vh;
     }
 
     .produitsContainer {
