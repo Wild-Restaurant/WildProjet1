@@ -91,7 +91,7 @@ header {
   display: flex;
   margin-left: -70%;
   transition: 0.8s ease-in-out;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(2px);
 
 }
 
@@ -318,7 +318,8 @@ img {
     align-items: center;
     border-radius: 0;
     opacity: 50;
-    background-color: #fdfbfb00;
+    background-color: #ffffff00;
+
   }
 
 
@@ -329,24 +330,25 @@ img {
     align-items: flex-start;
     backdrop-filter: blur(0px);
     margin: 0;
-    width: 70%;
-    height: auto;
+    width: 80%;
+    height: auto; 
 
   }
 
   .navbar .navlinks ul li {
-    padding: 10px;
     align-items: center;
     text-align: center;
-
-
+    text-shadow: 0 10px 20px black;
+padding-left: 10px;
+padding-right: 10px;
   }
 
   .navlinks ul li a {
     letter-spacing: 2PX;
     padding: 0;
-    color: rgb(239, 255, 16);
+    color: rgb(253, 253, 253);
     font-size: 1rem;
+    text-shadow: 20px 10px 20px black;
 }
 
 
@@ -358,6 +360,7 @@ img {
   .bouttonnav button {
     margin-top: 10px;
     background-color: #5f955f;
+
   }
 
   /*<----------NOS PRODUITS ----------->*/
