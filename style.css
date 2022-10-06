@@ -28,6 +28,10 @@
     padding-top: 200px;
   }
 
+  .CHargementinvisible {
+    z-index: 12;
+  }
+
   /*<-------------------NAVBAR--------------->*/
 
 
@@ -85,7 +89,7 @@ header {
   height: 35vh;
   display: flex;
   justify-content: left;
-  margin-left: -50%;
+  margin-left: -60%;
   transition: 0.8s ease-in-out;
 }
 
@@ -302,31 +306,50 @@ img {
   .logo {
     position: fixed;
     top: 30px;
-    right: 30px;
+    right: 2vw;
   }
 
-  .navbar .navlinks ul {
+  .navlinks ul {
     display: fixed;
     flex-direction: row;
-    padding: 20px;
+    padding: 30px;
+    align-items: center;
+    border-radius: 0;
+    opacity: 50;
+    background-color: #fdfbfb00;
   }
+
+  /* avlinks ul 
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-end;
+    border-radius: 10%;
+    width: 100%;
+    opacity: 0.5; */
+  
 
   .navlinks {
     display: flex;
     position: fixed;
-    margin-left: 1px;
-    align-items: center;
+    margin-left: 1vh;
     align-items: flex-start;
-    backdrop-filter: blur(0px);
-    justify-content: flex-start;
+
+  }
+
+  .navbar .navlinks ul li {
+    font-size: 0.5rem;
+    padding: 10px;
+
   }
 
   .navlinks ul li a {
-    padding: 20px;
+    padding: 10px;
+    font-size: 1.3rem;
+    color: #5F955F;
+
   }
 
-  .navlinks ul li {
-  }
 
   .bouttonnav {
     justify-content: center;
