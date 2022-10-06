@@ -341,6 +341,14 @@ img {
     text-shadow: 0 10px 20px black;
 padding-left: 10px;
 padding-right: 10px;
+
+  }
+
+  .navbar .navlinks ul li:hover {
+    cursor: pointer;
+    transition: 2s;
+    background-color: #d94730;
+    border-radius: 25px;
   }
 
   .navlinks ul li a {
