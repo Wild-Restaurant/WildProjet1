@@ -176,6 +176,12 @@ body {
     font-family: Oswald;
 }
 
+.section_restaurant {
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
 .h2_title_restaurant {
     color: #D94730;
     font-size: 25px;
@@ -190,11 +196,12 @@ body {
 }
 
 #img_land {
-    width: 100%;
-    border-radius: 5px;
-    margin-bottom: 15%;
-    margin-top: 15%;
-    box-shadow: -7px 9px 17px 0px rgb(103 97 92 / 90%);
+width: 100%;
+border-radius: 5px;
+margin-bottom: 15%;
+margin-top: 15%;
+box-shadow: -7px 9px 17px 0px rgb(103 97 92 / 90%);
+height: auto;
 }
 
 #img_port {
@@ -225,6 +232,9 @@ body {
 .text_restaurant p {
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-left: 5px;
+    font-size: 0.8em;
+    font-weight: bold;
 }
 
 /*<---------------NOS PRODUITS -------------->*/
@@ -453,14 +463,19 @@ img {
     }
 
 
+/*<------------RESTAURANT---------------->*/
+.section_restaurant {
+    padding-bottom: 45px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
 
-    /*<------------RESTAURANT---------------->*/
-    #img_port {
-        border-radius: 5px;
-        box-shadow: -7px 9px 17px 0px rgb(103 97 92 / 90%);
-        width: 340px;
-        height: 460px;
-    }
+#img_port {
+    border-radius: 5px;
+    box-shadow: -7px 9px 17px 0px rgb(103 97 92 / 90%);
+    width: 340px;
+    height: 460px;
+}
 
 
     #img_land {
@@ -503,8 +518,10 @@ img {
         background-color: rgb(247 247 248 / 63%);
         height: 125px;
         border-radius: 15px;
-        width: 26%;
+        width: 40%;
         margin-left: 5%;
+        justify-content: center;
+        font-weight: 200;
     }
 
 
