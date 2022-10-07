@@ -420,6 +420,8 @@ img {
         border-radius: 0;
         opacity: 80;
         background-color: #fcf7f700;
+        height: 0px;
+        margin-top: 45px;
     }
 
     .navlinks {
