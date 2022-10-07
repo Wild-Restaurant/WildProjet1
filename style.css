@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Poppins", sans-serif;
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
@@ -10,8 +9,8 @@
 body {
 
     background-color: #E9DDC8;
-    font-family: Oswald;
-    margin: 2px;
+    font-family: 'Bree Serif', serif;
+    margin: 0px;
 }
 
 p {
@@ -32,7 +31,7 @@ html {
 
 .chargement {
     position: absolute;
-    z-index: 10;
+    z-index: 22;
     background-color: #5F955F;
     height: 100%;
     min-width: 100vw;
@@ -53,7 +52,7 @@ html {
 }
 
 .CHargementinvisible {
-    z-index: 12;
+    z-index: 22;
 }
 
 /*<-------------------NAVBAR--------------->*/
@@ -122,6 +121,7 @@ header {
     margin-left: -70%;
     transition: 0.8s ease-in-out;
     backdrop-filter: blur(8px);
+    z-index: 20;
 }
 
 .navlinks ul {
@@ -132,6 +132,7 @@ header {
     background-color: #eee6e6;
     border-radius: 0% 8% 8% 8%;
     opacity: 0.5;
+    height: 300px;
 }
 
 .menubg {
@@ -141,6 +142,7 @@ header {
     width: 50px;
     left: 50px;
     border-radius: 20%;
+    z-index: 21;
 }
 
 .mobile-menu {
@@ -210,6 +212,7 @@ header {
     background-color: rgb(247 247 248 / 63%);
     height: 50px;
     border-radius: 15px;
+    font-weight: 400;
 }
 
 #img_land {
@@ -519,12 +522,13 @@ img {
         align-items: center;
         z-index: 2;
         position: absolute;
-        margin-top: 51%;
+        margin-top: 55%;
         background-color: rgb(247 247 248 / 63%);
         height: 125px;
         border-radius: 15px;
-        width: 26%;
-        margin-left: 5%;
+        width: 32%;
+        margin-left: 8%;
+        justify-content: center;
     }
 
     .text_restaurant {
