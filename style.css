@@ -7,6 +7,27 @@
     box-sizing: border-box;
 }
 
+body {
+
+    background-color: #E9DDC8;
+    font-family: Oswald;
+    margin: 2px;
+}
+
+p {
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
 /*<-------------------CHARGEMENT--------------->*/
 
 .chargement {
@@ -20,8 +41,6 @@
     align-items: center;
     padding-top: 100px;
     position: absolute;
-    /* animation: chargement 3s; */
-
 }
 
 .gifChargement {
@@ -31,11 +50,13 @@
 .chargement h3 {
     font-size: 25px;
     color: white;
-    /* pading-top: 200px; */
+}
+
+.CHargementinvisible {
+    z-index: 12;
 }
 
 /*<-------------------NAVBAR--------------->*/
-
 
 header {
     height: 100vh;
@@ -45,31 +66,31 @@ header {
     overflow: hidden;
 }
 
-.navbar {
-    position: fixed;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    box-sizing: border-box;
-    flex-direction: row-reverse;
-}
-
 .logo {
     position: fixed;
     top: 30px;
     right: 30px;
+    ;
 }
 
 .logo img {
-    padding-left: 15px;
+    margin: 2px;
+
+}
+
+.logo img:hover {
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+    transition: 1s;
 }
 
 .navbar a {
     color: rgb(0, 0, 0);
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-weight: 600;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .navlinks {
@@ -80,19 +101,27 @@ header {
     font-size: 1.2rem;
     padding: 13px;
     margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 3px;
+}
+
+.navbar .navlinks ul li:hover {
+    cursor: pointer;
+    transition: 1s;
+    background-color: #d94730;
+    border-radius: 20px;
 }
 
 .navlinks {
     top: 0;
-    border-radius: 10px;
     left: 0;
     position: fixed;
-    width: px;
+    border-radius: 10%;
     height: 35vh;
     display: flex;
-    justify-content: left;
-    margin-left: -50%;
+    margin-left: -70%;
     transition: 0.8s ease-in-out;
+    backdrop-filter: blur(8px);
 }
 
 .navlinks ul {
@@ -101,8 +130,7 @@ header {
     align-items: left;
     justify-content: flex-end;
     background-color: #eee6e6;
-    border-radius: 10%;
-    width: 100%;
+    border-radius: 0% 8% 8% 8%;
     opacity: 0.5;
 }
 
@@ -132,7 +160,7 @@ header {
 }
 
 .wildlogo img {
-    margin-top: 300px;
+    margin-top: 150px;
     width: 250px;
     height: 300px;
 }
@@ -151,31 +179,82 @@ header {
     color: white;
     border-radius: 20px;
     border-style: none;
-    font-size: 12px;
+    font-size: 14px;
     height: 40px;
     width: 70vw;
     margin-left: 12%;
 }
+
 
 .navbar .menubg {
     display: block;
 }
 
 
-/*<---------------NOS PRODUITS -------------->*/
+/*<---------------RESTAURANT -------------->*/
 
-body {
-    margin: 2px;
-    font-family: oswald;
+.section_restaurant {
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
-p {
-    font-size: 15px;
-}
-
-h2 {
+.h2_title_restaurant {
+    color: #D94730;
     font-size: 25px;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    position: absolute;
+    margin-top: 75%;
+    background-color: rgb(247 247 248 / 63%);
+    height: 50px;
+    border-radius: 15px;
 }
+
+#img_land {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15%;
+    margin-top: 15%;
+    box-shadow: -7px 9px 17px 0px rgb(103 97 92 / 90%);
+    height: auto;
+}
+
+#img_port {
+
+    width: 50%;
+    height: 45vh;
+    border-radius: 5px;
+    box-shadow: -7px 9px 17px 0px rgb(103 97 92 / 90%);
+}
+
+.group_restaurant {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.text_restaurant {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.0em;
+    text-align: left;
+    width: 50%;
+    padding-right: 25px;
+    padding-bottom: -14px;
+}
+
+.text_restaurant p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+/*<---------------NOS PRODUITS -------------->*/
 
 section.nosProduits {
     background: url("./assets/images/food-nosproduits.jpg");
@@ -191,6 +270,11 @@ section.nosProduits {
     margin-right: 20%;
     margin-left: 10%;
     color: white;
+}
+
+.produitsContainer p {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 
 .produitsContainer h2 {
@@ -215,7 +299,8 @@ section.nosProduits {
     background-color: #E9DDC8;
     height: 65vh;
 }
-.contact-container{
+
+.contact-container {
     display: flex;
     width: 100%;
 }
@@ -224,13 +309,13 @@ section.nosProduits {
     display: flex;
     flex-direction: column;
     height: 100%;
-    width:  100vw;
+    width: 100vw;
     padding-left: 10%;
     margin: 70px auto;
 }
 
 
-.contact-container-btn > div {
+.contact-container-btn>div {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -239,57 +324,48 @@ section.nosProduits {
     margin-bottom: 10%;
 }
 
-
-
 .contact-container-btn div img {
     height: 40%;
     width: 23%;
 }
 
-.contact-container-btn p{
+.contact-container-btn p {
     display: flex;
     flex-direction: row;
     margin: 10px;
     color: #515050;
     font-weight: bold;
 }
+
 /*<-------------------FIN DE CONTACT--------------->*/
 /*<-------------------FOOTER--------------->*/
 
 .footer-basic {
-
-    background-color:#D94730;
+    background-color: #D94730;
     height: 20vh;
-    
 }
 
 .liste-médias {
-    
     height: 12vh;
-    display:flex ;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
     max-width: 75%;
     margin-left: 12%;
-    
 }
 
 img {
-    
     width: auto;
     height: 4vh;
     justify-content: space-around;
-
 }
 
-
 .Mentions {
-
-    background-color:#D94730;
+    background-color: #D94730;
     height: 3vh;
-    text-align:center;
-    font-size:10px;
-    color:white;
+    text-align: center;
+    font-size: 10px;
+    color: white;
     text-decoration: none;
 }
 
@@ -297,14 +373,13 @@ img {
 /*<-------------------MEDIA SCREEN--------------->*/
 
 
-
-
 @media screen and (min-width:600px) {
-.container-btn {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
+    .container-btn {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
     /*<----------CHARGEMENT ----------->*/
 
     .chargement {
@@ -313,27 +388,15 @@ img {
         width: auto;
     }
 
-    .chargement h3 {
-        font-size: 30px;
-    }
-
-    /*<----------CHARGEMENT ----------->*/
-
     .gifChargement {
         height: 400px;
     }
 
     .chargement h3 {
-
         font-size: 40px;
     }
 
-
     /*<----------NAVBAR ----------->*/
-
-    .navbar {
-        padding: 0;
-    }
 
     .navbar .menubg {
         display: none;
@@ -342,38 +405,136 @@ img {
     .logo {
         position: fixed;
         top: 30px;
-        right: 30px;
+        right: 2vw;
     }
 
-    .navbar .navlinks ul {
+    .navlinks ul {
         display: fixed;
         flex-direction: row;
-        padding: 20px;
+        padding: 30px;
+        padding-left: 0;
+        align-items: center;
+        border-radius: 0;
+        opacity: 80;
+        background-color: #fcf7f700;
     }
 
     .navlinks {
         display: flex;
         position: fixed;
-        margin-left: 1px;
-        align-items: center;
         align-items: flex-start;
-        backdrop-filter: blur(0px);
-        justify-content: flex-start;
+        backdrop-filter: blur(3px);
+        margin: 0;
+        width: 80%;
+        height: auto;
+        z-index: 5;
+    }
+
+    .navbar .navlinks ul li {
+        align-items: center;
+        text-align: center;
+        text-shadow: 0 10px 20px black;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .wildlogo img {
+        margin-top: 200px;
+        width: 350px;
+        height: 400px;
+    }
+
+    .navbar .navlinks ul li:hover {
+        cursor: pointer;
+        transition: 1s;
+        background-color: #d94730;
+        border-radius: 25px;
     }
 
     .navlinks ul li a {
-        padding: 20px;
+        letter-spacing: 2px;
+        padding: 0;
+        color: rgb(253, 253, 253);
+        font-size: 1rem;
+        text-shadow: 20px 10px 20px black;
     }
 
     .bouttonnav {
         justify-content: center;
         display: flex;
-
     }
 
     .bouttonnav button {
         margin-top: 10px;
         background-color: #5f955f;
+    }
+
+    .bouttonnav button:hover {
+        cursor: pointer;
+        transition: 1s ease-in-out;
+        background-color: #d94730;
+        border-radius: 25px;
+    }
+
+    .bouttonnav button {
+        font-size: 20px;
+    }
+
+    /*<------------RESTAURANT---------------->*/
+
+    #img_port {
+        border-radius: 5px;
+        box-shadow: -7px 9px 17px 0px rgb(103 97 92 / 90%);
+        width: 340px;
+        height: 460px;
+    }
+
+    #img_land {
+        width: 80%;
+        border-radius: 5px;
+        margin-bottom: 5%;
+        margin-top: 15%;
+        box-shadow: -7px 9px 17px 0px rgb(103 97 92 / 90%);
+        margin-left: 10%;
+        height: 85vh;
+    }
+
+    .group_restaurant {
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 5%;
+    }
+
+    .text_restaurant p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 7vw;
+        padding-top: 16%;
+    }
+
+    .h2_title_restaurant {
+        color: #D94730;
+        font-size: 45px;
+        display: flex;
+        align-items: center;
+        z-index: 2;
+        position: absolute;
+        margin-top: 51%;
+        background-color: rgb(247 247 248 / 63%);
+        height: 125px;
+        border-radius: 15px;
+        width: 26%;
+        margin-left: 5%;
+    }
+
+    .text_restaurant {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 45px;
+        letter-spacing: 0.00em;
+        text-align: left;
+        width: 55vw;
+        padding-right: 25px;
     }
 
     /*<----------NOS PRODUITS ----------->*/
@@ -384,6 +545,10 @@ img {
 
     h2 {
         font-size: 40px;
+    }
+
+    .nosProduits {
+        margin-top: 5vh;
     }
 
     .produitsContainer {
@@ -399,29 +564,33 @@ img {
         height: 60px;
         width: 350px;
     }
-/*<----------CONTACT ----------->*/
 
-.contact-container{
-    display: flex;
-    width: 100%;
-    padding-left: 7%;
-}
-.contact-container-btn {
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    height: 100%;
-    width:  80vw;
-    ;
-}
-.contact-container-btn  div {
-    display: flex;
-    flex-direction: row;
-    height: 50%;
-    width: 50%;
-}
+    /*<----------CONTACT ----------->*/
+
+    .contact-container {
+        display: flex;
+        width: 100%;
+        padding-left: 7%;
+    }
+
+    .contact-container-btn {
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        height: 100%;
+        width: 80vw;
+    }
+
+    .contact-container-btn div {
+        display: flex;
+        flex-direction: row;
+        height: 50%;
+        width: 50%;
+    }
+
     /*<----------FOOTER ----------->*/
+
     .liste-médias {
         margin-left: 10%;
         margin-right: 10%;
@@ -430,21 +599,13 @@ img {
     }
 
     img {
-    
         width: auto;
         height: 6vh;
         justify-content: space-around;
-    
     }
 
     .Mentions {
-        font-size:13px;
-
-        
+        font-size: 13px;
     }
 
-    
-
 }
-
-
