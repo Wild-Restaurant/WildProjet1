@@ -181,7 +181,7 @@ header {
     color: white;
     border-radius: 20px;
     border-style: none;
-    font-size: 14px;
+    font-size: 11px;
     height: 40px;
     width: 70vw;
     margin-left: 12%;
@@ -269,7 +269,7 @@ section.nosProduits {
 
 .produitsContainer {
     width: 220px;
-    padding-top: 100px;
+    padding-top: 120px;
     margin-right: 20%;
     margin-left: 10%;
     color: white;
@@ -312,9 +312,9 @@ section.nosProduits {
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 100vw;
+    width: 90vw;
     padding-left: 10%;
-    margin: 70px auto;
+    margin: 40px auto;
 }
 
 
